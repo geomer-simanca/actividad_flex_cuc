@@ -1,0 +1,95 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Inter:wght@100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Inter:wght@100..900&family=Skranji:wght@400;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Inter:wght@100..900&family=Skranji:wght@400;700&family=Varela+Round&display=swap');
+
+body {
+    padding: 0;
+    margin: 0;
+    
+}
+
+.header{
+    /* border: 1px solid; */
+    padding: 3px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.header_titulo{
+    
+    border-radius: 25px;
+    width: 95%;
+    box-shadow: 1px 14px 32px -12px rgba(66, 68, 90, 1);
+    
+    
+
+}
+
+.header_titulo_titulo{
+    font-family: "Anton";
+    font-size: 3rem;
+    font-weight: 700;
+    text-align: center;
+    color: #1A1A19;
+    /* border: 1px solid black; */
+
+
+    margin: 4px;
+}
+
+.header_navbar{
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 10px;
+
+}
+
+.nav_equipo{
+    font-family: "Varela Round", serif;
+    font-size: 1.25rem;
+    font-weight: 400;
+    font-style: normal;
+    text-decoration: none;
+    color: #1A1A19;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.nav_equipo:hover {
+    transform: scale(1.2); /* Aumenta el tamaño en un 20% */
+    color: #3D3BF3; /* Cambia el color al pasar el mouse (opcional) */
+  }
+
