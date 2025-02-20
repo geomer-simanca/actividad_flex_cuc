@@ -128,7 +128,7 @@
     
 }
 
-@media (max-width: 660px) {
+@media (max-width: 530px) {
 
 
     .contenedor_main_datos{
@@ -136,6 +136,12 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
+    }
+
+    .contenedor_main_titulo{
+        font-family: "Varela Round", serif;
+        font-size: 2rem;
+    
     }
 
     .contenedor_main_datos_info_titulo{
