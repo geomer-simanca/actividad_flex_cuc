@@ -46,7 +46,9 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+    align-items: center;
     margin: 10px;
+    flex-wrap: wrap;
 
 }
 
@@ -57,6 +59,31 @@ body {
     font-style: normal;
     text-decoration: none;
     color: #1A1A19;
+}
+
+
+@media (max-width: 700px) {
+
+    .header_titulo_titulo{
+        font-family: "Anton";
+        font-size: 2rem;
+        
+    }
+
+    .nav_equipo{
+        font-family: "Varela Round", serif;
+        font-size: 0.9rem;
+        font-weight: 400;
+
+        
+    }
+
+    .header_navbar{
+        /* border: 1px solid black; */
+        gap: 5px;
+    
+    }
+    
 }
 
 
